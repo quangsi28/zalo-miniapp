@@ -8,13 +8,6 @@ export default defineConfig({
   dva: {
     hmr: true,
   },
-  locale: {
-    antd: false,
-    title: false,
-    default: 'vi-VN',
-    baseNavigator: false,
-    baseSeparator: '-',
-  },
   hash: false,
   routes: [
     {
